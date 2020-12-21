@@ -41,7 +41,8 @@ Microarrays help to study the expression of thousands of genes simultaneously. T
        This python file contains the codes for training ML classifiers 
 ####   5. evaluation.py
        This python file contains the codes for testing and evaluation classifiers 
-
+####   6. train_test.py       
+       This python file contains the functions used in training and testing
 ## Dataset shape
     The dataset should be in the following shape for these classiers
     columns - gene names or probe ids
