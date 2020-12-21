@@ -9,7 +9,7 @@ data,labels = read_data(data_path)
 models = load_models(model_path)
 
 result_table = pd.DataFrame(columns=['classifiers','accuracy', 'fpr','tpr','auc', 'precision', 'recall', 'f1 score', 'AP'])
-cm_path = "C:/Users/TEJINDER SINGH/Downloads/Project results/"
+cm_path = "E:/project/results/"
 
 for name, model in models:
     acc, fpr, tpr, roc_auc, precision, recall, f1 , log_los, ap = evaluate(name, model, data, labels, cm_path)
